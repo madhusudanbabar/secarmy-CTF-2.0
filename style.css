@@ -2,6 +2,8 @@ img{
   max-width: 80%;
   }
 
-*{
-  background-color : red;
+.flag{
+    color: grey;
+    text-indent : 1em;
 }
+
