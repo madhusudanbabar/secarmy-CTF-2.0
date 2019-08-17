@@ -8,6 +8,7 @@ img{
 }
 
 .category{
+  border-top: solid red 5px;
   font-weight : bolder;
   font-size : 3em;
 }
