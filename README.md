@@ -87,7 +87,7 @@ my team : Krypton
   the first part was ROT13 and second was ROT47
   
 #### the bin
-  ###### flag :
+  ###### flag : secarmy{PAST3_B1N_H@S_S0LUT10N}
   
   
   here you  have the flag :- 61 48 52 30 63 48 4d 36 4c 79 39 77 59 58 4e 30 5a 57 4a 70 62 69 35 6a 62 32 30 76 54 45 30 35 63 57 56 33 64 57 6b 3d|61 48 52 30 63 48 4d 36 4c 79 39 77 59 58 4e 30 5a 57 4a 70 62 69 35 6a 62 32 30 76 57 6d 52 71 54 6a 6
