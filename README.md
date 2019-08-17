@@ -14,7 +14,7 @@ my team : Krypton
   
   ![netcat](https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/welcome%20nc.png)
   
- #####) InstaFamous
+ ##### 3) InstaFamous
   ##### flag : secarmy{w3lc0me_1n$t@_f@m1ly}
   
   ![instafamous](https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/Welcomeinstafamous.jpg)
