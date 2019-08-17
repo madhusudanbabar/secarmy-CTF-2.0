@@ -79,4 +79,11 @@ my team : Krypton
   after using pdftotext tool the flag was found
   
   https://github.com/madhusudanbabar/secarmy-CTF-2.0/raw/master/Secret.pdf
+  
+#### the confusion
+  ###### flag : secarmy{WA3_I7_s0_c0nfu3ing}
+  
+  flag was split and hidden in two images
+  the first part was ROT13 and second was ROT47
+  
 
