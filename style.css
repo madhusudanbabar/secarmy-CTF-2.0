@@ -2,14 +2,24 @@ img{
   max-width: 80%;
   }
 
+.title{
+  font-family : cursive;
+  text-align : center;
+}
+
 .flag{
     color: #4DA5F5;
     text-indent : 5em;
 }
 
 .category{
+  text-transform : uppercase;
+  padding-top : 2em;
   border-top: solid red 5px;
   font-weight : bolder;
   font-size : 3em;
 }
+
+.challenge{
+  color : 
 
