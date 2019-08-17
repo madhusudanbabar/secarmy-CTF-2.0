@@ -60,4 +60,15 @@ my team : Krypton
   same thing again the flag was revealed by a zsteg
   
   ![the gift](https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/Starters%20the%20gift.png)
+  
+### forensics
+
+#### its all in your head
+  ###### flag : secarmy{h3ad3rs_t3ll_a_l0t}
+  
+  a corrupted png file was given
+  https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/forensics%20head%20orig.png
+  
+  so i tried hexdump but the magic bytes were different from png so i changed them with hexedit which revealed the flag.
+  ![flag](https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/forensics%20head%20flag.png)
 
