@@ -136,6 +136,15 @@ i tried base64 but it didnt worked then i removed the H at the end and it gave m
 
 #### prizes 
   ##### flag : secarmy{s0urc3_i5_n3ces5ary}
+  
+  
+#### Cookie Bank 
+  ##### flag : secarmy{the_$hy_c00kie_w1th1n}
+  
+  
+#### silly mangolian 2.0 
+  ##### flag : secarmy{why_1s_th1s_m0ng0li@n_$uch_@_f00l}
+  
 
 
  
