@@ -4,6 +4,11 @@ img{
 
 .flag{
     color: grey;
-    text-indent : 5m;
+    text-indent : 5em;
+}
+
+.category{
+  font-weight : bolder;
+  font-size : 3em;
 }
 
