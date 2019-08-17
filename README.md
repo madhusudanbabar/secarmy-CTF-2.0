@@ -118,4 +118,9 @@ i tried base64 but it didnt worked then i removed the H at the end and it gave m
   
   ![flag ](https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/binary%20smashit.png)
   
+#### F-L-A-S-H
+  ##### flag : secarmy{7h1s_w45_345y_p34zy}
+  here's the binary : https://github.com/madhusudanbabar/secarmy-CTF-2.0/raw/master/F-L-A-S-H
+  ![flag](https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/binary%20flash%20flag.png)
+  
   
