@@ -138,6 +138,10 @@ i tried base64 but it didnt worked then i removed the H at the end and it gave m
   ##### flag : secarmy{s0urc3_i5_n3ces5ary}
   
   
+#### web_salad 
+  ##### flag : secarmy{w3b_buck3t_3nc0un7er3d}
+  
+  
 #### Cookie Bank 
   ##### flag : secarmy{the_$hy_c00kie_w1th1n}
   
