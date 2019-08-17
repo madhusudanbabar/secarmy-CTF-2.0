@@ -5,6 +5,8 @@ img{
 .title{
   font-family : cursive;
   text-align : center;
+  font-weight : 700;
+  color : coral;
 }
 
 .flag{
