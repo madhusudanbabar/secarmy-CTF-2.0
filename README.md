@@ -71,4 +71,12 @@ my team : Krypton
   
   so i tried hexdump but the magic bytes were different from png so i changed them with hexedit which revealed the flag.
   ![flag](https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/forensics%20head%20flag.png)
+  
+#### secret
+  ###### flag : secarmy{ain’t_visible?}
+  
+  a pdf with a username and a password hidden by asterisks
+  after using pdftotext tool the flag was found
+  
+  https://github.com/madhusudanbabar/secarmy-CTF-2.0/raw/master/Secret.pdf
 
