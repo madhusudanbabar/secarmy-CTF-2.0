@@ -14,7 +14,7 @@ my team : Krypton
   
   ![netcat](https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/welcome%20nc.png)
   
- ##### 3) InstaFamous
+ #### 3) InstaFamous
   ###### flag : secarmy{w3lc0me_1n$t@_f@m1ly}
   
   ![instafamous](https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/Welcomeinstafamous.jpg)
@@ -85,5 +85,14 @@ my team : Krypton
   
   flag was split and hidden in two images
   the first part was ROT13 and second was ROT47
+  
+#### the bin
+  ###### flag :
+  
+  
+  here you  have the flag :- 61 48 52 30 63 48 4d 36 4c 79 39 77 59 58 4e 30 5a 57 4a 70 62 69 35 6a 62 32 30 76 54 45 30 35 63 57 56 33 64 57 6b 3d|61 48 52 30 63 48 4d 36 4c 79 39 77 59 58 4e 30 5a 57 4a 70 62 69 35 6a 62 32 30 76 57 6d 52 71 54 6a 6
+  
+  hex to text conversion gave two links of pastebin out of which the second one was working flag 
+  
   
 
