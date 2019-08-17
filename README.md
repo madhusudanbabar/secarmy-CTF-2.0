@@ -112,4 +112,10 @@ bmc1ISF9H
 i tried base64 but it didnt worked then i removed the H at the end and it gave me flag
   https://github.com/madhusudanbabar/secarmy-CTF-2.0/raw/master/stringy
   
-
+#### Smash it
+  ##### flag : secarmy{sm@sh1ng_st@ck_1s_t00_much_fun}
+  here's the binary : https://github.com/madhusudanbabar/secarmy-CTF-2.0/raw/master/smash
+  
+  ![flag ](https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/binary%20smashit.png)
+  
+  
