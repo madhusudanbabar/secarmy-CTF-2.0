@@ -127,7 +127,7 @@ i tried base64 but it didnt worked then i removed the H at the end and it gave m
   ##### flag : secarmy{d0_y0u_l1k3_c0w_languag3____?}
   
  here's the binary : https://github.com/madhusudanbabar/secarmy-CTF-2.0/raw/master/moo
- on reversing it with radare2 gave me a link to google drive file which has moo written everywhere, then i decoded it with **cow interpreter
+ on reversing it with radare2 gave me a link to google drive file which has moo written everywhere, then i decoded it with **cow interpreter**
  
  ![flag](https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/binary%20backyardcowflag.png)
  
