@@ -17,6 +17,7 @@ img{
 .category{
   text-transform : uppercase;
   padding-top : 2em;
+  margin-top : 2em;
   border-top: solid red 5px;
   font-weight : bolder;
   font-size : 3em;
