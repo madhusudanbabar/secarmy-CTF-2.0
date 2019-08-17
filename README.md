@@ -94,5 +94,7 @@ my team : Krypton
   
   hex to text conversion gave two links of pastebin out of which the second one was working flag 
   
+#### Save them 
+  ##### flag : secarmy{PAST3_B1N_H@S_S0LUT10N}
   
 
