@@ -1,1 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>secarmy-CTF-2.0 | Writeups of secarmy CTF 2.0</title>
+<link rel=stylesheet href="style.css" >
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="secarmy-CTF-2.0" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Writeups of secarmy CTF 2.0" />
+<meta property="og:description" content="Writeups of secarmy CTF 2.0" />
+<link rel="canonical" href="https://madhusudanbabar.github.io/secarmy-CTF-2.0/" />
+<meta property="og:url" content="https://madhusudanbabar.github.io/secarmy-CTF-2.0/" />
+<meta property="og:site_name" content="secarmy-CTF-2.0" />
+<script type="application/ld+json">
+{"headline":"secarmy-CTF-2.0","@type":"WebSite","url":"https://madhusudanbabar.github.io/secarmy-CTF-2.0/","name":"secarmy-CTF-2.0","description":"Writeups of secarmy CTF 2.0","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/secarmy-CTF-2.0/assets/css/style.css?v=a1cf2c67b4ff539274dd0d0d8c1ed5f390a46731">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+
+      <h1 id="secarmy-ctf-20">secarmy-CTF-2.0</h1>
+<p>Writeups of secarmy CTF 2.0
+my team : Krypton</p>
+
+<h3 id="welcome">welcome</h3>
+
+<h4 id="1-welcome-all">1) Welcome All</h4>
+<p>###### flag : secarmy{w3lc0me_y0u_all}</p>
+
+<p><img class="img" src="https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/welcome.png" alt="Welcome All" /></p>
+
+<h4 id="2-netcat">2) Netcat</h4>
+<p>###### flag : secarmy{W3lc0m3_T0_S3c4RmyC7F0x02}</p>
+
+<p><img class="img" src="https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/welcome%20nc.png" alt="netcat" /></p>
+
+<p>#### 3) InstaFamous
+  ###### flag : secarmy{w3lc0me_1n$t@_f@m1ly}</p>
+
+<p><img class="img" src="https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/Welcomeinstafamous.jpg" alt="instafamous" /></p>
+
+<h3 id="starters">starters</h3>
+
+<h4 id="1-168">1) “16+8”</h4>
+<p>###### flag : secarmy{Num3er_sys73m}
+  we have given two files with numbers in it 
+  1 )  73 65 63 61 72 6d 79 7b</p>
+
+<p>2 )  116 165 155 63 145 162 137 163 171 163 67 63 155 175</p>
+
+<p>as the name suggests the first part was hex and the second was octal so doing a simple conversion we got the flag</p>
+
+<h4 id="2-die-basis">2) Die basis</h4>
+<p>###### flag : secarmy{fl@g_1s__th3_b@s3}
+  two files given 
+  1) ********c2VjYXJteXtmbEBnXzFzXw==*******
+  2) **********L52GQM27MJAHGM35*********</p>
+
+<p>the first one was base64 and the second one was base32 encoded</p>
+
+<h4 id="3-easy-capture">3) Easy capture</h4>
+<p>###### flag : secarmy{h3r3_y0u_c@ptur3}
+  one’s and zeroes to be converted to text</p>
+
+<p>01110011 01100101 01100011 01100001 01110010 01101101 01111001 01111011 01101000 
+  00110011 01110010 00110011 01011111 01111001 00110000 01110101 01011111 01100011 
+  01000000 01110000 01110100 01110101 01110010 00110011 01111101</p>
+
+<h4 id="4-image">4) Image</h4>
+<p>###### flag : secarmy{th3_im@ge_s4ys_i7_a11}</p>
+
+<p>doing a simple zsteg revealed the flag</p>
+
+<p><img class="img" src="https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/Starters%20Image.png" alt="here's the image" /></p>
+
+<h4 id="5-th3-g1f7">5) Th3 G1f7</h4>
+<p>###### flag : secarmy{h3re_1s_th3_g1ft}</p>
+
+<p>same thing again the flag was revealed by a zsteg</p>
+
+<p><img class="img" src="https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/Starters%20the%20gift.png" alt="the gift" /></p>
+
+<h3 id="forensics">forensics</h3>
+
+<h4 id="its-all-in-your-head">its all in your head</h4>
+<p>###### flag : secarmy{h3ad3rs_t3ll_a_l0t}</p>
+
+<p>a corrupted png file was given
+  https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/forensics%20head%20orig.png</p>
+
+<p>so i tried hexdump but the magic bytes were different from png so i changed them with hexedit which revealed the flag.
+  <img class="img" src="https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/forensics%20head%20flag.png" alt="flag" /></p>
+
+<h4 id="secret">secret</h4>
+<p>###### flag : secarmy{ain’t_visible?}</p>
+
+<p>a pdf with a username and a password hidden by asterisks
+  after using pdftotext tool the flag was found</p>
+
+<p>https://github.com/madhusudanbabar/secarmy-CTF-2.0/raw/master/Secret.pdf</p>
+
+<h4 id="the-confusion">the confusion</h4>
+<p>###### flag : secarmy{WA3_I7_s0_c0nfu3ing}</p>
+
+<p>flag was split and hidden in two images
+  the first part was ROT13 and second was ROT47</p>
+
+<h4 id="the-bin">the bin</h4>
+<p>###### flag : secarmy{PAST3_B1N_H@S_S0LUT10N}</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>here you  have the flag :- 61 48 52 30 63 48 4d 36 4c 79 39 77 59 58 4e 30 5a 57 4a 70 62 69 35 6a 62 32 30 76 54 45 30 35 63 57 56 33 64 57 6b 3d</td>
+      <td>61 48 52 30 63 48 4d 36 4c 79 39 77 59 58 4e 30 5a 57 4a 70 62 69 35 6a 62 32 30 76 57 6d 52 71 54 6a 6</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>hex to text conversion gave two links of pastebin out of which the second one was working flag</p>
+
+<h4 id="save-them">Save them</h4>
+<p>##### flag : secarmy{PAST3_B1N_H@S_S0LUT10N}</p>
+
+<h3 id="binaryreversing">Binary/Reversing</h3>
+<h4 id="stringy">Stringy</h4>
+<p>##### flag : secarmy{l00k_a7_th3_str1ng5!!}</p>
+
+<p>as the name suggests i did strings on the elf which gave me some weird strings 
+  c2VjYXJtH
+eXtsMDBrH
+X2E3X3RoH
+M19zdHIxH
+bmc1ISF9H</p>
+
+<p>i tried base64 but it didnt worked then i removed the H at the end and it gave me flag
+  https://github.com/madhusudanbabar/secarmy-CTF-2.0/raw/master/stringy</p>
+
+<h4 id="smash-it">Smash it</h4>
+<p>##### flag : secarmy{sm@sh1ng_st@ck_1s_t00_much_fun}
+  here’s the binary : https://github.com/madhusudanbabar/secarmy-CTF-2.0/raw/master/smash</p>
+
+<p><img class="img" src="https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/binary%20smashit.png" alt="flag " /></p>
+
+<h4 id="f-l-a-s-h">F-L-A-S-H</h4>
+<p>##### flag : secarmy{7h1s_w45_345y_p34zy}
+  here’s the binary : https://github.com/madhusudanbabar/secarmy-CTF-2.0/raw/master/F-L-A-S-H
+  <img class="img" src="https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/binary%20flash%20flag.png" alt="flag" /></p>
+
+<h4 id="backyard-cow">backyard cow</h4>
+<p>##### flag : secarmy{d0<em>y0u_l1k3_c0w_languag3</em>___?}</p>
+
+<p>here’s the binary : https://github.com/madhusudanbabar/secarmy-CTF-2.0/raw/master/moo
+ on reversing it with radare2 gave me a link to google drive file which has moo written everywhere, then i decoded it with <strong>cow interpreter</strong></p>
+
+<p><img class="img" src="https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/binary%20backyardcowflag.png" alt="flag" /></p>
+
+<h3 id="web">web</h3>
+
+<h4 id="prizes">prizes</h4>
+<p>##### flag : secarmy{s0urc3_i5_n3ces5ary}</p>
+
+<h4 id="web_salad">web_salad</h4>
+<p>##### flag : secarmy{w3b_buck3t_3nc0un7er3d}</p>
+
+<h4 id="cookie-bank">Cookie Bank</h4>
+<p>##### flag : secarmy{the_$hy_c00kie_w1th1n}</p>
+
+<h4 id="silly-mangolian-20">silly mangolian 2.0</h4>
+<p>##### flag : secarmy{why_1s_th1s_m0ng0li@n_$uch_@_f00l}</p>
+
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>
