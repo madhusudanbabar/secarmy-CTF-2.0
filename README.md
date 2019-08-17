@@ -37,3 +37,12 @@ my team : Krypton
   2) \*\*\*\*\*\*\*\*\*\*L52GQM27MJAHGM35\*\*\*\*\*\*\*\*\*
   
   the first one was base64 and the second one was base32 encoded
+  
+#### 3) Easy capture
+  ###### flag : secarmy{h3r3_y0u_c@ptur3}
+  one's and zeroes to be converted to text 
+  
+  01110011 01100101 01100011 01100001 01110010 01101101 01111001 01111011 01101000 
+  00110011 01110010 00110011 01011111 01111001 00110000 01110101 01011111 01100011 
+  01000000 01110000 01110100 01110101 01110010 00110011 01111101
+
