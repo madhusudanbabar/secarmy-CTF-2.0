@@ -33,7 +33,7 @@ my team : Krypton
 #### 2) Die basis 
   ###### flag : secarmy{fl@g_1s__th3_b@s3}
   two files given 
-  1) ********c2VjYXJteXtmbEBnXzFzXw==*******
-  2) **********L52GQM27MJAHGM35*********
+  1) \` ********c2VjYXJteXtmbEBnXzFzXw==*******
+  2) \` **********L52GQM27MJAHGM35*********
   
   the first one was base64 and the second one was base32 encoded
