@@ -49,5 +49,15 @@ my team : Krypton
 #### 4) Image
   ###### flag : secarmy{th3_im@ge_s4ys_i7_a11}
   
+  doing a simple zsteg revealed the flag
+  
  ![here's the image](https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/Starters%20Image.png)
+ 
+ 
+#### 5) Th3 G1f7
+  ###### flag : secarmy{h3re_1s_th3_g1ft}
+  
+  same thing again the flag was revealed by a zsteg
+  
+  ![the gift](https://raw.githubusercontent.com/madhusudanbabar/secarmy-CTF-2.0/master/Starters%20the%20gift.png)
 
