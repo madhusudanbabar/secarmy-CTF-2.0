@@ -97,4 +97,19 @@ my team : Krypton
 #### Save them 
   ##### flag : secarmy{PAST3_B1N_H@S_S0LUT10N}
   
+  
+### Binary/Reversing 
+#### Stringy
+  ##### flag : secarmy{l00k_a7_th3_str1ng5!!}
+  
+  as the name suggests i did strings on the elf which gave me some weird strings 
+  c2VjYXJtH
+eXtsMDBrH
+X2E3X3RoH
+M19zdHIxH
+bmc1ISF9H
+
+i tried base64 but it didnt worked then i removed the H at the end and it gave me flag
+  https://github.com/madhusudanbabar/secarmy-CTF-2.0/raw/master/stringy
+  
 
