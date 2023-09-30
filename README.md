@@ -1,7 +1,7 @@
-# secarmy-CTF-2.0
+# [secarmy-CTF-2.0](https://madhusudan.live/blog/secarmy-ctf-2-0)
 Writeups of secarmy CTF 2.0
 my team : Krypton
-
+[full post here](https://madhusudan.live/blog/secarmy-ctf-2-0)
 ### welcome 
 
 #### 1) Welcome All
